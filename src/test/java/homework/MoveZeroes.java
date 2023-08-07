@@ -1,9 +1,8 @@
 package homework;
 
 
+import org.junit.Assert;
 import org.junit.Test;
-import org.testng.AssertJUnit;
-import junit.framework.Assert;
 
 
 
@@ -26,14 +25,14 @@ public class MoveZeroes {
 	@Test
 	public void test1() {
 		 int[] actual = moveZeroes(new int[]{0, 1, 0, 3, 12});
-	        AssertJUnit.assertArrayEquals(actual,new int[] {1,3,12,0,0});
+	        Assert.assertEquals(actual,new int[] {1,3,12,0,0});
 	}
 	
 	@Test
     public void test2()
     {
         int[] actual = moveZeroes(new int[]{0});
-        AssertJUnit.assertArrayEquals(actual,new int[] {0});
+		Assert.assertEquals(actual,new int[] {0});
     }
 	
 	
