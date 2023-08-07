@@ -1,7 +1,8 @@
 	package july18to21Homework;
 
+import org.junit.Assert;
 import org.junit.Test;
-import org.testng.Assert;
+
 
 public class PlusOneInArray {
 

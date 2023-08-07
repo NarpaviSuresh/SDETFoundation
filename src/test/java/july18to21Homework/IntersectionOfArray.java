@@ -2,8 +2,9 @@ package july18to21Homework;
 
 import java.util.HashSet;
 
+import org.junit.Assert;
 import org.junit.Test;
-import org.testng.Assert;
+
 
 public class IntersectionOfArray {
 

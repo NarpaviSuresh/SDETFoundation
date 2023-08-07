@@ -2,7 +2,7 @@ package Dailyprograms;
 
 import org.junit.Test;
 
-public class CalculatemoneyinBank {
+public class calculatemoneyinBank {
 //	https://leetcode.com/problems/calculate-money-in-leetcode-bank/
 	
 	@Test
