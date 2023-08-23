@@ -10,7 +10,7 @@ public class CanPlaceAFlower {
 input - int array and int  out put boolean
 2.Frame Test data (valid, invalid and edge cases) - Yes
     int[] flowerbed = [1,0,0,0,1], n = 1
-    int[] flowerbed = [1,0,1,0,1], n = 2
+    int[] flowerbed = [1,0,0,0,1], n = 1
     int[] flowerbed = [1,1,1,0,1], n = 2
 
 3.Do you know the solution or else ask for hint? -ask for the int
