@@ -13,9 +13,7 @@ import java.time.Duration;
 
 public class Salesforce_baseclass {
     public static WebDriver driver;
-    public static JavascriptExecutor js;
 
-    public static WebDriverWait wait;
     public static void chromeOptions(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
