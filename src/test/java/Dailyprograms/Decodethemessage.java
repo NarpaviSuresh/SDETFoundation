@@ -1,11 +1,17 @@
 package Dailyprograms;
 
+import org.junit.Test;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class Decodethemessage {
 
-
+    @Test
+    public void test1(){
+        String result = decodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv");
+        System.out.println(result);
+    }
         public String decodeMessage(String key, String message) {
             StringBuilder sb = new StringBuilder();
             // Create a map to store the character substitutions

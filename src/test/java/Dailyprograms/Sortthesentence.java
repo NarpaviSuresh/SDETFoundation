@@ -1,7 +1,13 @@
 package Dailyprograms;
 
-public class Sortthesentence {
+import org.junit.Test;
 
+public class Sortthesentence {
+    @Test
+    public void test1(){
+        String result = sortSentence("Myself2 Me1 I4 and3");
+        System.out.println(result);
+    }
     public String sortSentence(String s) {
         // Split the input sentence into individual words
         String[] words = s.split(" ");
