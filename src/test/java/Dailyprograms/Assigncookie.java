@@ -18,7 +18,7 @@ public class Assigncookie {
     }
     @Test
     public void test3(){
-        int contentChildren = findContentChildren(new int[]{1, 2,3,4}, new int[]{1,2,3,4});
+        int contentChildren = findContentChildren(new int[]{1,2,3,4}, new int[]{1,2,3,4});
         System.out.println(contentChildren);
     }
     public int findContentChildren(int[] g, int[] s) {
