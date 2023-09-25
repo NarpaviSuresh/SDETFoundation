@@ -24,7 +24,8 @@ public class JiraAssessment_Sep09092023 {
 
         //window maximize and sync
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+
 
         // load the url with username and password
         driver.get("https://api-training.atlassian.net/");
@@ -37,6 +38,7 @@ public class JiraAssessment_Sep09092023 {
 
     @Test
     public void jiraAssessment(){
+
         // clicking SDET 5 project
         driver.findElement(By.xpath("//p[text()='SDET-5']")).click();
 
