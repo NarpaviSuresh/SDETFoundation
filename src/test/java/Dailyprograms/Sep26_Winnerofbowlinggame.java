@@ -50,6 +50,12 @@ Return
         int i = bowlingGameWinner(new int[]{4, 10, 7, 9}, new int[]{6, 5, 2, 3});
         System.out.println(i);
     }
+
+    @Test
+    public void test2(){
+        int i = bowlingGameWinner(new int[]{4, 10, 7, 10}, new int[]{10, 5, 2, 10});
+        System.out.println(i);
+    }
     public int bowlingGameWinner(int[] player1, int[] player2) {
         int n = player1.length;
         int[] player1Score = new int[n];
