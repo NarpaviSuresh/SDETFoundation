@@ -50,4 +50,4 @@ public class Faircandy_OCt3 {
         Assert.assertEquals(new int[] {5,4}, fairCandySwap(new int[] {1,5,4,6,7},new int[] {7,8,4,2}));
     }
 }
-}
+
